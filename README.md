@@ -40,25 +40,38 @@ A full-stack web application built using PHP and MySQL that helps connect animal
 ## 📂 Project Structure
 
 ```
+## 📂 Project Structure
+
+```text
 animal-adoption-website/
+│
 ├── README.md
-├── add.php
-├── addslot.php
-├── animals.php
-├── appointments.php
-├── config.php
 ├── database.sql
-├── detail.php
-├── donate.php
-├── foot.php
-├── head.php
-├── index.php
-├── login.php
-├── logout.php
-├── profile.php
-├── register.php
-├── reports.php
-└── shelters.php
+├── config.php
+│
+├── User Features
+│   ├── register.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── profile.php
+│   └── appointments.php
+│
+├── Animal Management
+│   ├── animals.php
+│   ├── shelters.php
+│   └── detail.php
+│
+├── Admin Features
+│   ├── add.php
+│   ├── addslot.php
+│   └── reports.php
+│
+├── Layout
+│   ├── head.php
+│   └── foot.php
+│
+└── index.php
+```
 ```
 🗄️ Database Tables
 
