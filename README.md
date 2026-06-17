@@ -1,10 +1,10 @@
-🐾 Animal Adoption Website
+# 🐾 Animal Adoption Website
 
-A full-stack web application built using PHP and MySQL that helps connect animals in shelters with potential adopters. Users can browse animals, schedule shelter visits, make donations, and manage their profiles through a simple and user-friendly interface.
+A full-stack web application built using PHP, MySQL, and PDO that helps connect animals in shelters with potential adopters. Users can browse animals, schedule shelter visits, make donations, and manage their profiles through an intuitive and user-friendly interface.
 
-⸻
+---
 
-✨ Features
+## ✨ Features
 
 👤 User Features
 
@@ -24,9 +24,9 @@ A full-stack web application built using PHP and MySQL that helps connect animal
 * Manage Appointment Data
 * Generate Reports
 
-⸻
+---
 
-🏗️ Built With
+## 🛠️ Tech Stack
 
 * PHP
 * MySQL
@@ -35,11 +35,8 @@ A full-stack web application built using PHP and MySQL that helps connect animal
 * CSS
 * WAMP / XAMPP
 
-⸻
+---
 
-## 📂 Project Structure
-
-```
 ## 📂 Project Structure
 
 ```text
@@ -72,8 +69,10 @@ animal-adoption-website/
 │
 └── index.php
 ```
-```
-🗄️ Database Tables
+
+---
+
+## 🗄️ Database Tables
 
 * users
 * shelters
@@ -82,19 +81,21 @@ animal-adoption-website/
 * appointments
 * donations
 
-⸻
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
 1. Clone Repository
 
-git clone https://github.com/your_username/animal-adoption-website.git
+```bash
+git clone https://github.com/anshhchauhan62/animal-adoption-website.git
+```
 
 2. Import Database
 
 Import:
 
-database/schema.sql
+`database.sql`
 
 using phpMyAdmin.
 
@@ -102,29 +103,27 @@ using phpMyAdmin.
 
 Update credentials inside:
 
-config.php
+`config.php`
 
 4. Start Server
 
 Run WAMP/XAMPP and open:
 
+```text
 http://localhost/animal-adoption-website/
+```
 
-⸻
+---
 
-🔐 Demo Admin Account
+## 🔐 Demo Admin Account
 
-Email:
+**Email:** `admin@adoption.com`
 
-admin@adoption.com
+**Password:** `password`
 
-Password:
+---
 
-password
-
-⸻
-
-📈 Future Improvements
+## 📈 Future Improvements
 
 * Animal Image Uploads
 * Email Notifications
@@ -133,9 +132,9 @@ password
 * Mobile Responsive UI
 * Analytics Dashboard
 
-⸻
+---
 
-📚 What I Learned
+## 📚 What I Learned
 
 * PHP CRUD Operations
 * Session-Based Authentication
@@ -144,9 +143,9 @@ password
 * SQL Queries & Joins
 * Form Validation
 
-⸻
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Aadity Darji
 
