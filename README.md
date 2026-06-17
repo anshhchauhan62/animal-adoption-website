@@ -41,28 +41,24 @@ A full-stack web application built using PHP and MySQL that helps connect animal
 
 ```
 animal-adoption-website/
-│
-├── database/
-│   └── schema.sql
-│
-├── docs/
-│   └── DFD.md
-│
-├── index.php
-├── shelters.php
+├── README.md
+├── add.php
+├── addslot.php
 ├── animals.php
+├── appointments.php
+├── config.php
+├── database.sql
 ├── detail.php
-├── register.php
+├── donate.php
+├── foot.php
+├── head.php
+├── index.php
 ├── login.php
 ├── logout.php
 ├── profile.php
-├── appointments.php
-├── donate.php
-├── add.php
-├── addslot.php
+├── register.php
 ├── reports.php
-├── head.php
-└── foot.php
+└── shelters.php
 ```
 🗄️ Database Tables
 
