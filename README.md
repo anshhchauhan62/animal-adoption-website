@@ -37,8 +37,9 @@ A full-stack web application built using PHP and MySQL that helps connect animal
 
 ⸻
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 animal-adoption-website/
 │
 ├── database/
@@ -62,7 +63,7 @@ animal-adoption-website/
 ├── reports.php
 ├── head.php
 └── foot.php
-
+```
 🗄️ Database Tables
 
 * users
