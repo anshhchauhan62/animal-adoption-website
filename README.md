@@ -77,7 +77,7 @@ animal-adoption-website/
 
 1. Clone Repository
 
-git clone https://github.com/anshhchauhan62/animal-adoption-website.git
+git clone https://github.com/your_username/animal-adoption-website.git
 
 2. Import Database
 
