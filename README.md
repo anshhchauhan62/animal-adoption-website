@@ -51,8 +51,9 @@ animal-adoption-website/
 ├── shelters.php
 ├── animals.php
 ├── detail.php
-├── login.php
 ├── register.php
+├── login.php
+├── logout.php
 ├── profile.php
 ├── appointments.php
 ├── donate.php
