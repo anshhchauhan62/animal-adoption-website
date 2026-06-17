@@ -6,7 +6,7 @@ A full-stack web application built using PHP, MySQL, and PDO that helps connect 
 
 ## ✨ Features
 
-##👤 User Features
+## 👤 User Features
 
 * Secure Registration & Login
 * User Profile Management
@@ -16,7 +16,7 @@ A full-stack web application built using PHP, MySQL, and PDO that helps connect 
 * Book Shelter Visit Appointments
 * Make Donations
 
-##🛠️ Admin Features
+## 🛠️ Admin Features
 
 * Add New Animals
 * Create Appointment Time Slots
