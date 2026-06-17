@@ -1,77 +1,58 @@
 🐾 Animal Adoption Website
 
-A web-based animal adoption management system built using PHP and MySQL. The application allows users to browse animals, schedule shelter visits, make donations, and manage their profiles, while administrators can manage animals, time slots, and reports.
-
-⸻
-
-📸 Screenshots
-
-Dashboard
-
-Shelters Page
-
-Animals Listing
-
-Animal Details
-
-Appointment Booking
-
-Admin Panel
-
-Reports
+A full-stack web application built using PHP and MySQL that helps connect animals in shelters with potential adopters. Users can browse animals, schedule shelter visits, make donations, and manage their profiles through a simple and user-friendly interface.
 
 ⸻
 
 ✨ Features
 
-User Features
+👤 User Features
 
-* User Registration and Login
-* Profile Management
+* Secure Registration & Login
+* User Profile Management
 * Browse Available Animals
-* Search and Filter Animals
-* View Animal Details
+* Search & Filter Animals
+* View Detailed Animal Information
 * Book Shelter Visit Appointments
 * Make Donations
 
-Admin Features
+🛠️ Admin Features
 
 * Add New Animals
-* Create Visit Time Slots
-* View Donations
-* View Appointment Records
+* Create Appointment Time Slots
+* View Donation Records
+* Manage Appointment Data
 * Generate Reports
 
 ⸻
 
-🛠️ Technologies Used
+🏗️ Built With
 
 * PHP
 * MySQL
 * PDO
 * HTML
 * CSS
-* WAMP / XAMPP / MAMP
+* WAMP / XAMPP
 
 ⸻
 
 📂 Project Structure
 
 animal-adoption-website/
-
+│
 ├── database/
-│ └── schema.sql
-
+│   └── schema.sql
+│
 ├── docs/
-│ └── DFD.md
-
+│   └── DFD.md
+│
 ├── index.php
 ├── shelters.php
 ├── animals.php
 ├── detail.php
-├── register.php
 ├── login.php
-├── logout.php
+├── register.php
 ├── profile.php
 ├── appointments.php
 ├── donate.php
@@ -80,8 +61,6 @@ animal-adoption-website/
 ├── reports.php
 ├── head.php
 └── foot.php
-
-⸻
 
 🗄️ Database Tables
 
@@ -94,63 +73,65 @@ animal-adoption-website/
 
 ⸻
 
-🚀 Local Setup
+🚀 Getting Started
 
-1. Copy Project
+1. Clone Repository
 
-Place the project folder inside:
-
-C:\wamp64\www\animal-adoption-website
+git clone https://github.com/anshhchauhan62/animal-adoption-website.git
 
 2. Import Database
 
-Open phpMyAdmin and import:
+Import:
 
 database/schema.sql
 
+using phpMyAdmin.
+
 3. Configure Database
 
-Update database credentials inside:
+Update credentials inside:
 
 config.php
 
-4. Run Application
+4. Start Server
 
-Start WAMP/XAMPP and open:
+Run WAMP/XAMPP and open:
 
 http://localhost/animal-adoption-website/
 
 ⸻
 
-🔐 Default Admin Account
+🔐 Demo Admin Account
 
-Email: admin@adoption.com
+Email:
 
-Password: password
+admin@adoption.com
+
+Password:
+
+password
 
 ⸻
 
 📈 Future Improvements
 
-* Email Notifications
 * Animal Image Uploads
-* Adoption Request Tracking
+* Email Notifications
+* Adoption Tracking Workflow
 * Advanced Search Filters
-* Mobile Responsive Design
+* Mobile Responsive UI
 * Analytics Dashboard
 
 ⸻
 
-🎓 Learning Outcomes
-
-This project helped me learn:
+📚 What I Learned
 
 * PHP CRUD Operations
 * Session-Based Authentication
-* MySQL Database Design
 * PDO Database Connectivity
-* SQL Queries and Joins
-* Form Handling and Validation
+* Relational Database Design
+* SQL Queries & Joins
+* Form Validation
 
 ⸻
 
@@ -158,4 +139,4 @@ This project helped me learn:
 
 Aadity Darji
 
-Aspiring Software Developer with interests in Python, Data Analytics, AI, and Motorsport Technology.
+Aspiring Software Developer interested in Python, Data Analytics, AI/ML, and Motorsport Technology.
