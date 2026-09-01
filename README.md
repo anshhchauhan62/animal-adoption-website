@@ -42,32 +42,26 @@ A full-stack web application built using PHP, MySQL, and PDO that helps connect 
 ```text
 animal-adoption-website/
 │
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── database.sql
 ├── config.php
-│
-├── User Features
-│   ├── register.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── profile.php
-│   └── appointments.php
-│
-├── Animal Management
-│   ├── animals.php
-│   ├── shelters.php
-│   └── detail.php
-│
-├── Admin Features
-│   ├── add.php
-│   ├── addslot.php
-│   └── reports.php
-│
-├── Layout
-│   ├── head.php
-│   └── foot.php
-│
-└── index.php
+├── database.sql
+├── index.php
+├── register.php
+├── login.php
+├── logout.php
+├── profile.php
+├── appointments.php
+├── animals.php
+├── shelters.php
+├── detail.php
+├── add.php
+├── addslot.php
+├── reports.php
+├── donate.php
+├── head.php
+└── foot.php
 ```
 
 ---
